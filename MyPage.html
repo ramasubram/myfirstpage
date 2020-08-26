@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <!-- Page development by - Rama
+        **Contents**
+        Styling
+            * background Style
+            * Heading 1 Style
+            * Paragraph Style
+            * List Style
+            * Dropdown Style
+        Heading
+        Body design and action
+    -->
+    <head>
+        <style>
+            /* Style of the page */
+            body {
+                background-image: url('little-about-me.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            /* Style Heading 1 */
+            h1 {
+                color: rgb(24, 7, 134);
+                font-family: cursive;
+                font-style: italic;
+                font-size: 260%;
+                text-align: left;
+            }
+            /* Style the paragraph */
+            p {
+                color: deeppink;
+                border: 5px solid rgb(47, 255, 227);
+                border-radius: 25PX 5px;
+                padding: 5px;
+                text-align: left;
+                font-size: 160%;
+                font-family: cursive;
+            }
+            /* Style the unordered list */
+            ul {
+                color: deeppink;
+                border: 5px solid greenyellow;
+                border-radius: 15px;
+                padding: 10px;
+                text-align: left;
+                font-size: 100%;
+                font-family: cursive;
+            }
+
+            /* Style the Dropdown Box */
+            .dropdown {
+            position: relative;
+            display: inline-block;
+            }
+
+            /* Style of Dropdown Content (Hidden by Default) */
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 220px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 5px 5px;
+            z-index: 1;
+            }
+
+            /* Show the dropdown menu on hover */
+            .dropdown:hover .dropdown-content {
+            display: block;
+            }
+
+       </style>
+    </head>
+
+    <body>
+        <h1><br>   Want to know about me? &#128071<br></h1>
+
+        <div class="dropdown">
+            <p>Who Am I..</p>
+            <div class="dropdown-content">
+                <ul>
+                    <li>Hi! I am Rama &#127773</li>
+                    <li><img src="MyPhoto.jpg" alt="Rama Murali"> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown">
+            <p>What did I do..</p>
+            <div class="dropdown-content">
+                <ul>
+                    <li>Studied M.Sc Computer Science in India</li>
+                    <li>Worked in India for about 4 1/2 years</li>
+                    <li>Worked as a Tech Lead in San Jose, USA for 5 1/2 years</li>
+                    <li>Studied Swedish Course C & D</li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown">
+            <p>What do I do..</p>
+            <div class="dropdown-content">
+                <ul>
+                    <li>Trying to refresh my programming skills</li>
+                    <li>Trying to improve my Swedish knowledge</li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown">
+            <p>What will I do..</p>
+            <div class="dropdown-content">
+                <ul>
+                    <li>Finish Programming course</li>
+                    <li>Look for a job in IT</li>
+                    <li>Gear up my technical skills</li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown">
+            <p>Contact</p>
+            <div class="dropdown-content">
+                <ul>
+                    <a href="mailto:muraliv_ramas@yahoo.com">Mail Me to: muraliv_ramas@yahoo.com</a>
+                </ul> 
+            </div>
+        </div>
+    </body>
+</html>
+ 
